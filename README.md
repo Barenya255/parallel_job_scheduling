@@ -14,3 +14,12 @@
  - High degree of parallelization given (almost constant runtime with respect to number of requests.)
  - Graph created in CSR format corresponding to the cluster's architecture.
  - Matching algorithm applied.
+
+## Using the scheduler :
+ - make a folder INPUT_DIR
+ - place all inputs inside the folder
+ - run make
+
+## Dynamic Version
+ - uses producer-consumer analogy to make almost parallel updation.
+ - Will be implemented shortly.
